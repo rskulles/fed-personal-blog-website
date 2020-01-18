@@ -2,34 +2,62 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=0.85,maximum-scale=3,user-scalable=no">
     <title>Skulltaku - Like that other gaming blog, but actually loads.</title>
     <link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 <header>
-    <div class="logo-container">
+    <section class="logo-container">
         <a href="index.html" class="logo">skulltaku</a>
-        <span class="logo-caption">Entertainment Tech Games</span>
-    </div>
+        <span class="tag-line">Entertainment. Tech. Games.</span>
+    </section>
 
+    <nav>
+        <a href="#">Latest</a>
+        <a href="#">Reviews</a>
+        <a href="#">Video</a>
+        <a href="#">Archive</a>
+    </nav>
 </header>
-<div class="content">
-    <div class="card">
-        <img src="images/lol-review.jpg">
-        <h1>League of Legends, The SKULLTAKU Review.</h1>
+<div class="container">
+    <div id="suggested">
+        <div></div>
+        <div></div>
+        <div></div>
     </div>
-    <div class="card">
-        <img src="images/the-best-snes.JPG">
-        <h1>10 Best SNES Games</h1>
-    </div>
-    <div class="card">
-        <img src="images/the-best-sega.JPG">
-        <h1>10 Best SEGA Games.</h1>
-    </div>
+    <section id="posts">
+        <div class="card">
+            <span class="post-time">34 MIN AGO</span>
+            <a href="blog-post.html">
+                <img class="post-img" alt="League of Legends" src="images/lol-review.jpg">
+            </a>
+            <a class="card-title" href="blog-post.html">League of Legends, The 2020 Review.</a>
+            <div class="card-footer">
+                <span class="author">R. Skully</span>
+            </div>
+        </div>
+        <div class="card">
+            <span class="post-time">11/21/1990 6:00PM</span>
+            <a href="blog-post.html">
+                <img class="post-img" alt="The Best SNES Games" src="images/the-best-snes.JPG">
+            </a>
+            <a class="card-title" href="blog-post.html">Top 10 SNES Games</a>
+            <span class="author">R. Skully</span>
+        </div>
+        <div class="card">
+            <span class="post-time">08/14/1989 4:15PM</span>
+            <a href="blog-post.html">
+                <img class="post-img" alt="The Best Genesis Games" src="images/the-best-sega.JPG">
+            </a>
+            <a class="card-title" href="#">Top 10 SEGA Genesis Games.</a>
+            <span class="author">R. Skully</span>
+        </div>
+    </section>
     <footer>
+        <p>2020 Skulltaku</p>
     </footer>
 </div>
-
 </body>
 </html>
